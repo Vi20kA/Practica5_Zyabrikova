@@ -11,10 +11,12 @@ namespace Practica5_Zyabrikova
         static void Main(string[] args)
         {
             Console.WriteLine("Работу выполнила Зябрикова Виктория");
-
+        
             Console.Write("Введите значения параметра х = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+
+            double F = 2 * Math.Cos(x);
 
         }
     }
