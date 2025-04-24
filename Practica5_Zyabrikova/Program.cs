@@ -16,6 +16,7 @@ namespace Practica5_Zyabrikova
             int x = Convert.ToInt32(Console.ReadLine());
 
             double F = (Math.Sin(x) - Math.Cos(x))/5;
+            Console.WriteLine("Ответ функции (Sin(x)-Cos(x))/5 = " + F);
 
             Console.ReadKey();
         }
