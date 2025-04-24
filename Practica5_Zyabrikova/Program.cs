@@ -15,6 +15,8 @@ namespace Practica5_Zyabrikova
             Console.Write("Введите значения параметра х = ");
             int x = Convert.ToInt32(Console.ReadLine());
 
+            double F = (Math.Sin(x) - Math.Cos(x))/5;
+
             Console.ReadKey();
         }
     }
