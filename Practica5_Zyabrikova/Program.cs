@@ -13,11 +13,9 @@ namespace Practica5_Zyabrikova
             Console.WriteLine("Работу выполнила Зябрикова Виктория");
         
             Console.Write("Введите значения параметра х = ");
-            string s = Console.ReadLine();
-            double x = Convert.ToDouble(s);
+            int x = Convert.ToInt32(Console.ReadLine());
 
-            double F = 2 * Math.Cos(x);
-            Console.WriteLine($"Для значения х = {x}, F = {F}");
+            Console.ReadKey();
         }
     }
 }
